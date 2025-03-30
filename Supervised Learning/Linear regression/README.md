@@ -14,11 +14,10 @@ The goal is to fit a **straight line** (in 2D) or a **hyperplane** (in higher di
 ### **1. The Line Equation**
 Linear Regression fits a **line** to the data points. In simple linear regression, we use the equation of a line: 
 
-$$
-\[
+
+$$\
 y = \beta_0 + \beta_1 x + \epsilon
-\]
-$$
+\$$
 
 where:  
 -$$\( y \)$$ is the predicted output (dependent variable).  
