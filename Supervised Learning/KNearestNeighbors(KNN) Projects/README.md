@@ -42,25 +42,25 @@ Let’s say we have:
 - Point B: $$\( (7, 1) \)$$
 
 The distance between A and B is:
-\[
+$$\[
 d(A, B) = \sqrt{(7-3)^2 + (1-4)^2} = \sqrt{4^2 + (-3)^2} = \sqrt{16 + 9} = \sqrt{25} = 5
-\]
+\]$$
 
 If the dataset has **more than two features**, the formula extends to:
-\[
+$$\[
 d(A, B) = \sqrt{\sum_{i=1}^{n} (x_i - y_i)^2}
-\]
+\]$$
 where \( n \) is the number of features.
 
 #### **Example in 3D Space**
 If:
-- \( A(1, 2, 3) \)
-- \( B(4, 6, 8) \)
+- $$\( A(1, 2, 3) \)$$
+- $$\( B(4, 6, 8) \)$$
 
 Then:
-\[
+$$\[
 d(A, B) = \sqrt{(4-1)^2 + (6-2)^2 + (8-3)^2} = \sqrt{3^2 + 4^2 + 5^2} = \sqrt{9 + 16 + 25} = \sqrt{50} \approx 7.07
-\]
+\]$$
 
 ---
 
@@ -72,16 +72,16 @@ d(A, B) = \sqrt{(4-1)^2 + (6-2)^2 + (8-3)^2} = \sqrt{3^2 + 4^2 + 5^2} = \sqrt{9 
 #### **For Classification (Majority Voting):**
 
 Once we have the K nearest neighbors, the prediction is made based on the **majority class** among them. Mathematically, the predicted class is:
-\[
+$$\[
 \hat{y} = \arg\max_c \sum_{i=1}^{K} \mathbb{1}(y_i = c)
-\]
+\]$$
 Where:
-- \( c \) represents a class label.
-- \( \mathbb{1}(y_i = c) \) is **1** if the \( i^{th} \) neighbor belongs to class \( c \), otherwise **0**.
+- $$\( c \)$$ represents a class label.
+- $$\( \mathbb{1}(y_i = c) \)$$ is **1** if the $$\( i^{th} \)$$ neighbor belongs to class $$\( c \)$$, otherwise **0**.
 - We choose the class with the **most votes**.
 
 #### **Example (Classification)**
-Imagine we have **three classes: Apple 🍎, Banana 🍌, and Cherry 🍒**, and we set \( K = 5 \). The nearest neighbors are:
+Imagine we have **three classes: Apple 🍎, Banana 🍌, and Cherry 🍒**, and we set $$\( K = 5 \)$$. The nearest neighbors are:
 
 | Neighbor | Class     |
 |----------|-----------|
@@ -103,9 +103,9 @@ Since **Apple** appears the most (3 times), the model predicts **🍎 Apple** as
 #### **For Regression (Averaging Neighbor Values):**
 
 For regression, instead of taking a majority vote, we calculate the **average** of the K nearest neighbors' values. The prediction is given by:
-\[
+$$\[
 \hat{y} = \frac{1}{K} \sum_{i=1}^{K} y_i
-\]
+\]$$
 
 #### **Example (Regression)**
 Let’s say we want to predict the **price of a house** based on its features. We set \( K = 3 \), and the nearest houses have prices:
@@ -117,9 +117,9 @@ Let’s say we want to predict the **price of a house** based on its features. W
 | 3rd      | 230,000   |
 
 The predicted price is:
-\[
+$$\[
 \hat{y} = \frac{250,000 + 270,000 + 230,000}{3} = \frac{750,000}{3} = 250,000
-\]
+\]$$
 
 So, our model predicts the house will cost **$250,000**.
 
@@ -178,8 +178,8 @@ where \( n \) is the number of features.
 
 #### **Example in 3D Space**
 If:
-- \( A(1, 2, 3) \)
-- \( B(4, 6, 8) \)
+- $$\( A(1, 2, 3) \)$$
+- $$\( B(4, 6, 8) \)$$
 
 Then:
 $$
