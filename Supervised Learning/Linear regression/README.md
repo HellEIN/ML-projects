@@ -20,7 +20,7 @@ y = \beta_0 + \beta_1 x + \epsilon
 \$$
 
 where:  
--$$\( y \)$$ is the predicted output (dependent variable).  
+- $$\( y \)$$ is the predicted output (dependent variable).  
 - $$\( \beta_0 \)$$ is the **intercept** of the line (the value of $$\( y \)$$ when $$\( x = 0 \)$$).  
 - $$\( \beta_1 \)$$ is the **slope** of the line (how much $$\( y \)$$ changes for a unit change in $$\( x \)$$).  
 - $$\( x \)$$ is the input feature (independent variable).  
