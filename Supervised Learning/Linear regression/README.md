@@ -32,7 +32,7 @@ $$\
 y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \dots + \beta_n x_n + \epsilon
 \$$
 
-where \( x_1, x_2, \dots, x_n \) are the input features, and \( \beta_1, \beta_2, \dots, \beta_n \) are the coefficients for each feature.
+where $$\( x_1, x_2, \dots, x_n \)$$ are the input features, and $$\( \beta_1, \beta_2, \dots, \beta_n \)$$ are the coefficients for each feature.
 
 ### **2. Fitting the Model (Finding the Best Line)**  
 To find the best-fitting line, we use the **Least Squares Method**, which minimizes the difference between the actual values and the predicted values (also called the **residuals**).  
