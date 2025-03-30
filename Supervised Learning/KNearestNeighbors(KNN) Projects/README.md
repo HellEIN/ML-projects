@@ -22,7 +22,10 @@ To find the "nearest" neighbors, we need to calculate the **distance** between d
 #### **Euclidean Distance Formula**
 
 For two points in a 2D space:
-$$ \[A(x_1, y_1), \quad B(x_2, y_2)\]$$
+
+$$
+\hat{y} = \arg\max_c \sum_{i=1}^{K} \mathbb{1}(y_i = c)
+$$
 
 
 The Euclidean distance between these points is:
