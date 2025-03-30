@@ -22,11 +22,8 @@ To find the "nearest" neighbors, we need to calculate the **distance** between d
 #### **Euclidean Distance Formula**
 
 For two points in a 2D space:
-``` ruby
-$$ 
-\[A(x_1, y_1), \quad B(x_2, y_2)\]
-$$
-```
+$$ \[A(x_1, y_1), \quad B(x_2, y_2)\]$$
+
 
 The Euclidean distance between these points is:
 \[
