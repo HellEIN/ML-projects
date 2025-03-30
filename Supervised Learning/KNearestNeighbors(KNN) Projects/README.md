@@ -29,9 +29,12 @@ $$
 
 
 The Euclidean distance between these points is:
+
+$$
 \[
 d(A, B) = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
 \]
+$$
 
 #### **Example (2D)**  
 Let’s say we have:
