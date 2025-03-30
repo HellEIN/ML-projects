@@ -28,9 +28,7 @@ where:
 
 In **multiple linear regression** (when we have more than one input feature), the equation becomes:
 
-$$\
-y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \dots + \beta_n x_n + \epsilon
-\$$
+$$\y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \dots + \beta_n x_n + \epsilon\$$
 
 where $$\( x_1, x_2, \dots, x_n \)$$ are the input features, and $$\( \beta_1, \beta_2, \dots, \beta_n \)$$ are the coefficients for each feature.
 
@@ -46,9 +44,7 @@ where:
 - $$\( y_i \)$$ is the actual value for the $$\( i \)$$-th data point.
 - $$\( \hat{y}_i \)$$ is the predicted value for the $$\( i \)$$-th data point, which is calculated using the equation:  
 
-  $$\
-  \hat{y}_i = \beta_0 + \beta_1 x_i
-  \$$
+$$\\hat{y}_i = \beta_0 + \beta_1 x_i\$$
 
 The objective is to find $$\( \beta_0 \)$$ and $$\( \beta_1 \)$$ (and for multiple regression, $$\( \beta_2, \dots, \beta_n \)$$) that **minimize** this cost function.
 
