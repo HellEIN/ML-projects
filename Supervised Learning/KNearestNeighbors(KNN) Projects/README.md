@@ -159,9 +159,9 @@ So, the predicted house price is **$252,857**.
 ## **Pros and Cons of KNN**  
 
 ✅ **Advantages:**  
-✔️ Simple and easy to implement.  
-✔️ No training phase (just store data and make predictions).  
-✔️ Works well for small datasets.  
+- Simple and easy to implement.  
+- No training phase (just store data and make predictions).  
+- Works well for small datasets.  
 
 ❌ **Disadvantages:**  
 - Slow when dataset is large (computes distance for every point).  
