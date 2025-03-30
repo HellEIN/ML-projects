@@ -25,4 +25,6 @@ Welcome to my personal machine learning repository! This project serves as a col
   - Classification: Accuracy, Precision, Recall, F1, ROC-AUC  
   - Regression: MSE, RMSE, R²  
 
-Some of the algorith will be implemented in the future after I get to learn them 
+Some of the algorith will be implemented in the future after I get to learn them. 
+
+`for the interactive plots of the projectes you need to download the HTML file or run ipynb locally `
