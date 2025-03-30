@@ -39,9 +39,7 @@ To find the best-fitting line, we use the **Least Squares Method**, which minimi
 
 The key idea is to find the line that minimizes the sum of the squared differences between the predicted values $$\( \hat{y} \)$$ and the actual values $$\( y \)$$. This is done by minimizing the **cost function** (also called **loss function**):
 
-$$\
-J(\beta_0, \beta_1) = \frac{1}{2m} \sum_{i=1}^{m} (y_i - \hat{y}_i)^2
-\$$
+$$\J(\beta_0, \beta_1) = \frac{1}{2m} \sum_{i=1}^{m} (y_i - \hat{y}_i)^2\$$
 
 where:
 - $$\( m \)$$ is the number of data points.
