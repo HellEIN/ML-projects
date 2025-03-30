@@ -1,3 +1,5 @@
+**`For the interactive version you should download the HTML file or run ipynb file locally`**
+
 # **Linear Regression - A Simple Explanation with Math**
 
 ## **Introduction**  
@@ -139,14 +141,14 @@ This predicted value doesn’t make sense in this context (score can't be negati
 ## **Pros and Cons of Linear Regression**
 
 ✅ **Advantages:**
-✔️ Simple to understand and implement.  
-✔️ Works well for datasets where the relationship between the input and output is linear.  
-✔️ Fast to train and predict.
+- Simple to understand and implement.  
+- Works well for datasets where the relationship between the input and output is linear.  
+- Fast to train and predict.
 
 ❌ **Disadvantages:**
-❌ Assumes a linear relationship between inputs and outputs (which may not always be the case).  
-❌ Sensitive to outliers.  
-❌ Doesn’t perform well when the data is too complex or has non-linear relationships.
+- Assumes a linear relationship between inputs and outputs (which may not always be the case).  
+- Sensitive to outliers.  
+- Doesn’t perform well when the data is too complex or has non-linear relationships.
 
 ---
 
