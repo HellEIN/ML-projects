@@ -1,4 +1,4 @@
-`**For the interactive version you should download the HTML file or run ipynb file locally**`
+`*For the interactive version you should download the HTML file or run ipynb file locally*`
 
 # **K-Nearest Neighbors (KNN) Algorithm - A Simple Yet Powerful Approach**  
 
