@@ -44,7 +44,7 @@ where:
 - $$\( y_i \)$$ is the actual value for the $$\( i \)$$-th data point.
 - $$\( \hat{y}_i \)$$ is the predicted value for the $$\( i \)$$-th data point, which is calculated using the equation:  
 
-$$\\hat{y}_i = \beta_0 + \beta_1 x_i\$$
+$$\hat{y}_i = \beta_0 + \beta_1 x_i\$$
 
 The objective is to find $$\( \beta_0 \)$$ and $$\( \beta_1 \)$$ (and for multiple regression, $$\( \beta_2, \dots, \beta_n \)$$) that **minimize** this cost function.
 
