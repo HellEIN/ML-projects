@@ -38,10 +38,8 @@ $$
 
 #### **Example (2D)**  
 Let’s say we have:
-- Point A:
-  $$\( (3, 4) \)$$
-- Point B: 
-  $$ \( (7, 1) \)$$
+- Point A: $$\( (3, 4) \) $$
+- Point B: $$ \( (7, 1) \)$$
 
 The distance between A and B is:
 \[
